@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+
+}
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+
+
+/* 
+1 == Header section
+2 == MOdel section
+3 == DEvelop section 
+4 == Agency section 
+*/
+
+
+/* header section stylesheets */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url('img/hero_section.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+nav{
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+nav .logo{
+    margin-right: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width:40%;
+   
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+.login{
+    margin-left: 25%;
+}
+.login a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.getStart{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    color:white;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.title_header{
+    padding:70px;
+}
+.title_header h1{
+   font-weight: bolder;
+}
+.title_header p{
+    font-size: 0.7rem;
+ }
+
+.HBContainer button {
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: blue;
+    border: none;
+    color:white;
+    margin-left:10px;
+    margin-right:10px;
+}
+.HBContainer a{
+    text-decoration: none;
+}
+
+/* header section stylesheets  end here */
+
+/* modesl section csss */
+
+.models{
+    width: 100%;
+    /* background-color: red; */
+    /* height: 400px; */
+    margin-top: -70px;
+}
+.title_models {
+    text-align: center;
+    
+}
+.group_image{
+    width: 100%;
+}
+.image_title{
+    margin-top: -90px;
+    padding: 20px;
+}
+
+
+
+/* modesl section css ends here */
+
+/* develop section start here */
+
+
+.develop{
+  
+    width:100%;
+    height: 800px;
+    background-image: url('img/section.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textCol{
+  
+    height: 300px;
+    text-align: center;
+    color: white;
+    
+}
+.textCol p{
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+}
+.textCol button {
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: #70C217;
+    border: none;
+    color:white;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+/* develop section ends here */
+
+/* Agency section strat */
+
+
+.agency{
+    
+    /* background-color: red; */
+    background-image: url('img/testimonials-section.png');
+    height: 700px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-test{
+    background-image: url('img/testim.png');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+   
+    height: 300px;
+    
+}
+.img-test p{
+    text-align: justify;
+    color:rgb(183, 181, 179)
+}
+
+/* Agency section end here */
+
+/* people section start here */
+
+.people{
+    background-image: url('img/people-section.png');
+   height: 500px;
+    width:100%;
+   background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.subscribe{
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #5F37EF;
+    position: absolute;
+    padding-top:40px ;
+    color:white;
+}
+.subscribe p{
+    font-size: 1.4rem;
+}
+.subscribe button{
+    padding: 10px 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: white;
+}
+
+/* people section end here */
+
+
+/* footer start */
+
+footer{
+    background-color: #7854F7;
+    height: 400px;
+    width:100%;
+
+}
+.pad{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+footer h4{
+    font-size: 0.7rem;
+}
+
+/* footer end */
+footer .col-2 div{
+   /* text-align: center; */
+   color:white;
+}
+footer .col-2 div li a {
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 0.5rem;
+}
+footer .col-2 div li  {
+   
+    text-decoration: none;
+    list-style-type: none;
+}
+footer .col-2 div ul{
+    padding-left: 0;
+}
+.footend{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
